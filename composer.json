@@ -40,6 +40,7 @@
         "magento/magento-composer-installer": ">=0.1.11",
         "magento/module-catalog-sample-data-venia": "dev-master",
         "magento/module-configurable-sample-data-venia": "dev-master",
+        "magento/module-customer-sample-data-venia": "dev-master",
         "magento/sample-data-media-venia": "dev-master",
         "magento/zendframework1": "~1.14.0",
         "monolog/monolog": "^1.17",
@@ -313,6 +314,10 @@
         "veniaCatalogSampleData": {
             "type": "git",
             "url": "https://github.com/PMET-public/module-catalog-sample-data-venia.git"
+        },
+        "veniaCustomerSampleData": {
+          "type": "git",
+          "url": "https://github.com/PMET-public/module-customer-sample-data-venia.git"
         },
         "veniaSampleDataMedia": {
             "type": "git",

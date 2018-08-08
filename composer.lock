@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4285f147f3bf95ce89ccdc04207955d1",
+    "content-hash": "f4d060544c44479f3cf21775019fc182",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -926,6 +926,30 @@
             ],
             "description": "N/A",
             "time": "2018-07-18T19:05:25+00:00"
+        },
+        {
+            "name": "magento/module-customer-sample-data-venia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PMET-public/module-customer-sample-data-venia.git",
+                "reference": "07dbc0f20ff577a4586e1b56ea3f4e6e222039f0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CustomerSampleDataVenia\\": ""
+                }
+            },
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "N/A",
+            "time": "2018-08-02T13:31:38+00:00"
         },
         {
             "name": "magento/sample-data-media-venia",
@@ -8952,6 +8976,7 @@
     "stability-flags": {
         "magento/module-catalog-sample-data-venia": 20,
         "magento/module-configurable-sample-data-venia": 20,
+        "magento/module-customer-sample-data-venia": 20,
         "magento/sample-data-media-venia": 20,
         "phpmd/phpmd": 0
     },
